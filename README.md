@@ -1,5 +1,13 @@
 # ziema
 
+```bash
+brew install java
+brew install clojure/tools/clojure
+brew install leiningen
+```
+
+https://leiningen.org/tutorial.html
+
 FIXME: description
 
 ## Installation
