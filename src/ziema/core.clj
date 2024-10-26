@@ -2,10 +2,12 @@
 (ns ziema.core  ;(1)
   (:gen-class)
   (:require [org.httpkit.server :as server])) ;(2)
+
 (defn baby-small-app [req] ;(3)
   {:status  200
    :headers {"Content-Type" "text/html"}
    :body    "Pew pew!"})
+
 (defn -main ;(4)
   "This is our app's entry point"
   [& args]
