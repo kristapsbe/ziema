@@ -16,6 +16,11 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
+```bash
+lein run ziema
+```
+
+
 FIXME: explanation
 
     $ java -jar ziema-0.1.0-standalone.jar [args]
